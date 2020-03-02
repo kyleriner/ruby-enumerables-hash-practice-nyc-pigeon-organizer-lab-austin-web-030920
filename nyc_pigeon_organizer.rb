@@ -6,4 +6,5 @@ def nyc_pigeon_organizer(data)
       pigeon[:gender][:female]
     end
   end
+  p data
 end
