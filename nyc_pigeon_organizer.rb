@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           pigeons[name][descriptions] = []
         end
         
-        pigeons[name][descriptions].push(results)
+        pigeons[name][descriptions].push(results.to_s)
       }
     }
   }
