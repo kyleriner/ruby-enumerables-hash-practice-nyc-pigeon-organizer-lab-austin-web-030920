@@ -11,8 +11,8 @@ def nyc_pigeon_organizer(data)
         if pigeons[name][descriptions] == nil
           pigeons[name][descriptions] = []
         end
-        
-        pigeons[name][descriptions].push(results.to_s)
+        final = results.to_s
+        pigeons[name][descriptions].push(final)
       }
     }
   }
